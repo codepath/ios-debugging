@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LevelSixViewController" customModule="Debugging" customModuleProvider="target">
+            <connections>
+                <outlet property="finishLevelButton" destination="XDS-Wb-d75" id="zwg-dq-cxA"/>
+                <outlet property="levelTitleLabel" destination="YhP-6w-knC" id="kns-0n-0bg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDS-Wb-d75">
+                    <rect key="frame" x="0.0" y="478" width="320" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="2FX-g4-A6w"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="18"/>
+                    <state key="normal" title="COMPLETE LEVEL">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="finishLevelTapped:" destination="-1" eventType="touchUpInside" id="br6-rd-TAg"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level 6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YhP-6w-knC">
+                    <rect key="frame" x="97" y="120" width="127" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="KUM-96-Zzq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="30"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only Tap on &quot;Complete Level&quot; once you've fixed the AutoLayout exception that shows up in the output window." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf1-Rj-TbY">
+                    <rect key="frame" x="20" y="240" width="280" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="280" id="WFt-ee-EXR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="XDS-Wb-d75" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2fY-GI-nTx"/>
+                <constraint firstItem="Sf1-Rj-TbY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="9Qh-4m-bNW"/>
+                <constraint firstItem="XDS-Wb-d75" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Hdp-gZ-0L3"/>
+                <constraint firstItem="YhP-6w-knC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="120" id="SLS-EK-IVE"/>
+                <constraint firstItem="Sf1-Rj-TbY" firstAttribute="top" secondItem="YhP-6w-knC" secondAttribute="bottom" constant="80" id="UF5-ua-T3J"/>
+                <constraint firstItem="YhP-6w-knC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="a1Q-ce-YVG"/>
+                <constraint firstAttribute="bottom" secondItem="XDS-Wb-d75" secondAttribute="bottom" constant="40" id="jee-8g-mdc"/>
+                <constraint firstAttribute="trailing" secondItem="Sf1-Rj-TbY" secondAttribute="trailing" constant="20" id="mSc-0c-rw2"/>
+                <constraint firstItem="Sf1-Rj-TbY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qrP-sL-eMD"/>
+                <constraint firstAttribute="trailing" secondItem="XDS-Wb-d75" secondAttribute="trailing" id="wOU-iw-zB6"/>
+            </constraints>
+            <point key="canvasLocation" x="337" y="384"/>
+        </view>
+    </objects>
+</document>

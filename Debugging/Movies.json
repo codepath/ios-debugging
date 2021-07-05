@@ -1,0 +1,355 @@
+{
+  "status": "OK",
+  "movies": [
+    {
+      "adult": false,
+      "backdrop_path": "/dkMD5qlogeRMiEixC4YNPUvax2T.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878,
+        53
+      ],
+      "id": 135397,
+      "original_language": "en",
+      "original_title": "Jurassic World",
+      "overview": "Twenty-two years after the events of Jurassic Park, Isla Nublar now features a fully functioning dinosaur theme park, Jurassic World, as originally envisioned by John Hammond.",
+      "release_date": "2015-06-12",
+      "poster_path": "/uXZYawqUsChGSj54wcuBtEdUJbh.jpg",
+      "popularity": 88.551849,
+      "title": "Jurassic World",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 435
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jxPeRkfOoWs6gFybOa8C4xrHLrm.jpg",
+      "genre_ids": [
+        53,
+        28,
+        12
+      ],
+      "id": 76341,
+      "original_language": "en",
+      "original_title": "Mad Max: Fury Road",
+      "release_date": "2015-05-15",
+      "poster_path": "/kqjL17yufvn9OVLyXYpvtyrFfak.jpg",
+      "popularity": 35.88189,
+      "title": "Mad Max: Fury Road",
+      "video": false,
+      "vote_average": 7.9,
+      "vote_count": 815
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cUfGqafAVQkatQ7N4y08RNV3bgu.jpg",
+      "genre_ids": [
+        28,
+        18,
+        53
+      ],
+      "id": 254128,
+      "original_language": "en",
+      "original_title": "San Andreas",
+      "release_date": "2015-05-29",
+      "poster_path": "/6iQ4CMtYorKFfAmXEpAQZMnA0Qe.jpg",
+      "popularity": 25.002,
+      "title": "San Andreas",
+      "video": false,
+      "vote_average": 6.2,
+      "vote_count": 234
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kJre98tnbNXbk5L5altHkQWGwD3.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878,
+        9648
+      ],
+      "id": 158852,
+      "original_language": "en",
+      "original_title": "Tomorrowland",
+      "overview": "Bound by a shared destiny, a bright, optimistic teen bursting with scientific curiosity and a former boy-genius inventor jaded by disillusionment embark on a danger-filled mission to unearth the secrets of an enigmatic place somewhere in time and space that exists in their collective memory as \"Tomorrowland.\"",
+      "release_date": "2015-05-22",
+      "poster_path": "/69Cz9VNQZy39fUE2g0Ggth6SBTM.jpg",
+      "popularity": 14.07089,
+      "title": "Tomorrowland",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 239
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/anItUS64TeGKPv6MJ99DMv7o0Z0.jpg",
+      "genre_ids": [
+        35,
+        10402
+      ],
+      "id": 254470,
+      "original_language": "en",
+      "original_title": "Pitch Perfect 2",
+      "release_date": "2015-05-15",
+      "poster_path": "/qSjruLiFB4uqRtz2xheQPxG8uaB.jpg",
+      "popularity": 12.179013,
+      "title": "Pitch Perfect 2",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 189
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tGxBYYSKSmBUpjSHDpRelsbNeBy.jpg",
+      "genre_ids": [
+        80,
+        53,
+        28
+      ],
+      "id": 334074,
+      "original_language": "en",
+      "original_title": "Survivor",
+      "release_date": "2015-05-29",
+      "poster_path": "/hHuM1sYhGkWu3wTLotnNeiSJrpz.jpg",
+      "popularity": 9.928704,
+      "title": "Survivor",
+      "video": false,
+      "vote_average": 5.6,
+      "vote_count": 43
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wd66GNMSUe0UCNCmOvMJkmQb2mn.jpg",
+      "genre_ids": [
+        28
+      ],
+      "id": 290764,
+      "original_language": "en",
+      "original_title": "Tracers",
+      "overview": "Wanted by the mafia, a New York City bike messenger escapes into the world of parkour after meeting a beautiful stranger.",
+      "release_date": "2015-06-18",
+      "poster_path": "/cGW7Ly3dcOo7ilSwTiwGGSwEQZd.jpg",
+      "popularity": 8.294641,
+      "title": "Tracers",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 92
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/szytSpLAyBh3ULei3x663mAv5ZT.jpg",
+      "genre_ids": [
+        35,
+        16,
+        10751
+      ],
+      "id": 150540,
+      "original_language": "en",
+      "original_title": "Inside Out",
+      "release_date": "2015-06-19",
+      "poster_path": "/rDycdoAXtBb7hoWlBpZqbwk2F44.jpg",
+      "popularity": 7.595773,
+      "title": "Inside Out",
+      "video": false,
+      "vote_average": 8.8,
+      "vote_count": 29
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7ZkoybuGj8cF6Wi5O3vToIruMPt.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 243688,
+      "original_language": "en",
+      "original_title": "Poltergeist",
+      "release_date": "2015-05-22",
+      "poster_path": "/fWOPN0XBvHXFYr3RsPr74qBge2I.jpg",
+      "popularity": 5.908358,
+      "title": "Poltergeist",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 62
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mH748p6mdDe1GKoTsQDasgeQZGm.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 318256,
+      "original_language": "en",
+      "original_title": "Hot Girls Wanted",
+      "release_date": "2015-05-29",
+      "poster_path": "/oyGqHDwuZTv8HRmDIoJW6nCmYqC.jpg",
+      "popularity": 5.673525,
+      "title": "Hot Girls Wanted",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 24
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rohVTacbOboHVjLkng0UMeXtLUR.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 188222,
+      "original_language": "en",
+      "original_title": "Entourage",
+      "release_date": "2015-06-03",
+      "poster_path": "/bgmI7iQFSd1y9QeixTme6YcaPsy.jpg",
+      "popularity": 5.504801,
+      "title": "Entourage",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 32
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qhhTwFPParNevfpvushwsPquOpw.jpg",
+      "genre_ids": [
+        27
+      ],
+      "id": 280092,
+      "original_language": "en",
+      "original_title": "Insidious: Chapter 3",
+      "release_date": "2015-06-05",
+      "poster_path": "/ixANIbPRTNMAstlqJa2FlfBesyQ.jpg",
+      "popularity": 4.500807,
+      "title": "Insidious: Chapter 3",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 48
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3R0eqYG58LbizQUVqcEzDijnbV6.jpg",
+      "genre_ids": [
+        28,
+        35
+      ],
+      "id": 238713,
+      "original_language": "en",
+      "original_title": "Spy",
+      "release_date": "2015-06-05",
+      "poster_path": "/gCBw0AQDhlo0bNetkjsSRWzrxpW.jpg",
+      "popularity": 5.283511,
+      "title": "Spy",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 96
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ykjKoP9YTcpf2pPwxmdXtqjO9X7.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "id": 271397,
+      "original_language": "uk",
+      "original_title": "Plemya",
+      "release_date": "2015-06-17",
+      "poster_path": "/1q2UUtdZF0N0lyDQwpJJ8wwO4zJ.jpg",
+      "popularity": 3.352383,
+      "title": "The Tribe",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 10
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ujszMBAGoUO1efIPcjOjDoSte6n.jpg",
+      "genre_ids": [
+        35,
+        27
+      ],
+      "id": 255798,
+      "original_language": "en",
+      "original_title": "Burying the Ex",
+      "release_date": "2015-06-19",
+      "poster_path": "/mYB22nPaa9HfJ1UxyjZHccTePQb.jpg",
+      "popularity": 4.327044,
+      "title": "Burying the Ex",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lC3DPzQag4QiSozvDpxY1ZgCBVw.jpg",
+      "genre_ids": [
+        28
+      ],
+      "id": 332177,
+      "original_language": "en",
+      "original_title": "Vendetta",
+      "release_date": "2015-06-12",
+      "poster_path": "/arG342eGVoePcscBH5ELeWw8U2O.jpg",
+      "popularity": 4.26368,
+      "title": "Vendetta",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/W0MNr3XN95U5KLD9xIQD96YKcS.jpg",
+      "genre_ids": [
+        878,
+        35,
+        28,
+        14
+      ],
+      "id": 251516,
+      "original_language": "en",
+      "original_title": "Kung Fury",
+      "overview": "During an unfortunate series of events, a friend of Kung Fury is assassinated by the most dangerous kung fu master criminal of all time, Adolf Hitler, a.k.a Kung Führer. Kung Fury decides to travel back in time to Nazi Germany in order to kill Hitler and end the Nazi empire once and for all.",
+      "release_date": "2015-05-28",
+      "poster_path": "/oJWzpGCLIj3uYa0ux19T2WwzTOf.jpg",
+      "popularity": 4.224303,
+      "title": "Kung Fury",
+      "video": false,
+      "vote_average": 8.5,
+      "vote_count": 64
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [],
+      "id": 344938,
+      "original_language": "en",
+      "original_title": "The Ark Of Mr. Chow",
+      "overview": "Bright teens recruited for a special college program have trouble fitting into the student body.",
+      "release_date": "2015-06-19",
+      "poster_path": "/iwtWt4OwGKgHBv6mIk5jjQlHMqR.jpg",
+      "popularity": 4.0237,
+      "title": "The Ark Of Mr. Chow",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ifQIqHqfvifmPvDoCzC4mn95PgZ.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 308639,
+      "original_language": "en",
+      "original_title": "Dope",
+      "overview": "Malcolm is carefully surviving life in a tough neighborhood in Los Angeles while juggling college applications, academic interviews, and the SAT. A chance invitation to an underground party leads him into an adventure that could allow him to go from being a geek, to being dope, to ultimately being himself.",
+      "release_date": "2015-06-19",
+      "poster_path": "/oZ6tXopDrgfzuJZgmO1SFP69nFm.jpg",
+      "popularity": 4.013508,
+      "title": "Dope",
+      "video": false,
+      "vote_average": 8.5,
+      "vote_count": 4
+    }
+  ]
+}

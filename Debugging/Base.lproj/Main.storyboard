@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="Bdy-6H-AFl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="xXs-aH-1fb">
+            <objects>
+                <viewController id="2sv-TF-dif" customClass="HomeViewController" customModule="Debugging" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VWq-wx-Xkx"/>
+                        <viewControllerLayoutGuide type="bottom" id="4cw-IN-1UY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fNQ-tN-37l">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBK-ro-vd2">
+                                <rect key="frame" x="20" y="258" width="374" height="80"/>
+                                <string key="text">Welcome to the Debugging Game! This game has x levels. Each level has a bug. It is your responsibility to debug each issue and fix it to advance to the next level.</string>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SnI-uW-CEc">
+                                <rect key="frame" x="0.0" y="772" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.76508620689655171" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="xCe-ym-d9I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="18"/>
+                                <state key="normal" title="LET'S GET STARTED">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startGameTappedWithSender:" destination="2sv-TF-dif" eventType="touchUpInside" id="mnB-TD-54S"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Debugging Lab" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWD-R1-AqX">
+                                <rect key="frame" x="89.5" y="144" width="235" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="kqM-BO-A7m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="30"/>
+                                <color key="textColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SnI-uW-CEc" firstAttribute="leading" secondItem="fNQ-tN-37l" secondAttribute="leading" id="A1T-id-yYc"/>
+                            <constraint firstItem="pBK-ro-vd2" firstAttribute="centerX" secondItem="fNQ-tN-37l" secondAttribute="centerX" id="BsE-v8-W6t"/>
+                            <constraint firstAttribute="trailing" secondItem="SnI-uW-CEc" secondAttribute="trailing" id="Duf-0k-XF0"/>
+                            <constraint firstItem="JWD-R1-AqX" firstAttribute="centerX" secondItem="fNQ-tN-37l" secondAttribute="centerX" id="RlK-h6-h7W"/>
+                            <constraint firstItem="SnI-uW-CEc" firstAttribute="centerX" secondItem="fNQ-tN-37l" secondAttribute="centerX" id="iqp-NY-zux"/>
+                            <constraint firstItem="pBK-ro-vd2" firstAttribute="top" secondItem="JWD-R1-AqX" secondAttribute="bottom" constant="80" id="jNl-Xx-2FD"/>
+                            <constraint firstItem="4cw-IN-1UY" firstAttribute="top" secondItem="SnI-uW-CEc" secondAttribute="bottom" constant="40" id="mU0-RO-Awx"/>
+                            <constraint firstItem="JWD-R1-AqX" firstAttribute="top" secondItem="VWq-wx-Xkx" secondAttribute="bottom" constant="100" id="rXy-u8-gSm"/>
+                            <constraint firstItem="pBK-ro-vd2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fNQ-tN-37l" secondAttribute="leading" constant="20" id="wog-VR-NzV"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pBK-ro-vd2" secondAttribute="trailing" constant="20" id="zCc-bz-bCu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="lfq-2n-UGo"/>
+                    <connections>
+                        <outlet property="detailsLabel" destination="pBK-ro-vd2" id="2z5-o7-tHF"/>
+                        <outlet property="titleLabel" destination="JWD-R1-AqX" id="12w-lC-gG7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pjT-Ki-ggc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="414.49275362318843" y="505.58035714285711"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="og4-K9-02A">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Bdy-6H-AFl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cLn-XC-Zak">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Man-dD-fOZ">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="2sv-TF-dif" kind="relationship" relationship="rootViewController" id="nJ4-HJ-hHS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iSc-gc-laj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-356.52173913043481" y="505.58035714285711"/>
+        </scene>
+    </scenes>
+</document>

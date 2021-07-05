@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1143CB461C641A25008F767A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143CB451C641A25008F767A /* AppDelegate.swift */; };
+		1143CB481C641A25008F767A /* GameLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143CB471C641A25008F767A /* GameLevelViewController.swift */; };
+		1143CB4B1C641A25008F767A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1143CB491C641A25008F767A /* Main.storyboard */; };
+		1143CB4D1C641A25008F767A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1143CB4C1C641A25008F767A /* Assets.xcassets */; };
+		1143CB501C641A25008F767A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1143CB4E1C641A25008F767A /* LaunchScreen.storyboard */; };
+		1164417F1C6A919D006BE864 /* LevelIntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164417D1C6A919D006BE864 /* LevelIntroductionViewController.swift */; };
+		116441801C6A919D006BE864 /* LevelIntroductionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1164417E1C6A919D006BE864 /* LevelIntroductionViewController.xib */; };
+		11687BA61C642F1700FA6720 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11687BA51C642F1700FA6720 /* HomeViewController.swift */; };
+		11687BAA1C643BBB00FA6720 /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 11687BA91C643BBB00FA6720 /* Movies.json */; };
+		11687BB21C6441A400FA6720 /* LevelSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11687BB01C6441A400FA6720 /* LevelSixViewController.swift */; };
+		11687BB31C6441A400FA6720 /* LevelSixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11687BB11C6441A400FA6720 /* LevelSixViewController.xib */; };
+		11687BBA1C64427800FA6720 /* LevelTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11687BB81C64427800FA6720 /* LevelTwoViewController.swift */; };
+		11687BBB1C64427800FA6720 /* LevelTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11687BB91C64427800FA6720 /* LevelTwoViewController.xib */; };
+		11687BBE1C6442B600FA6720 /* LevelThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11687BBC1C6442B600FA6720 /* LevelThreeViewController.swift */; };
+		11687BBF1C6442B600FA6720 /* LevelThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11687BBD1C6442B600FA6720 /* LevelThreeViewController.xib */; };
+		11687BC21C6442D800FA6720 /* LevelFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11687BC01C6442D800FA6720 /* LevelFourViewController.swift */; };
+		11687BC31C6442D800FA6720 /* LevelFourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11687BC11C6442D800FA6720 /* LevelFourViewController.xib */; };
+		11687BC61C6442ED00FA6720 /* LevelFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11687BC41C6442ED00FA6720 /* LevelFiveViewController.swift */; };
+		11687BC71C6442ED00FA6720 /* LevelFiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11687BC51C6442ED00FA6720 /* LevelFiveViewController.xib */; };
+		11687BCA1C64491C00FA6720 /* SimpleMovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11687BC81C64491C00FA6720 /* SimpleMovieTableViewCell.swift */; };
+		11687BCB1C64491C00FA6720 /* SimpleMovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11687BC91C64491C00FA6720 /* SimpleMovieTableViewCell.xib */; };
+		116A07601C753E640068F39A /* GameLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116A075F1C753E640068F39A /* GameLevel.swift */; };
+		116A07641C7572D20068F39A /* GameCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116A07621C7572D20068F39A /* GameCompleteViewController.swift */; };
+		116A07651C7572D20068F39A /* GameCompleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116A07631C7572D20068F39A /* GameCompleteViewController.xib */; };
+		116A07861C75B0850068F39A /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116A07841C75B0850068F39A /* MovieTableViewCell.swift */; };
+		116A07871C75B0850068F39A /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116A07851C75B0850068F39A /* MovieTableViewCell.xib */; };
+		116A078A1C75B6920068F39A /* LevelOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116A07881C75B6920068F39A /* LevelOneViewController.swift */; };
+		116A078B1C75B6920068F39A /* LevelOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116A07891C75B6920068F39A /* LevelOneViewController.xib */; };
+		3A0C56DF1C8409B00021392B /* LevelCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C56DE1C8409B00021392B /* LevelCompleteViewController.swift */; };
+		3A0C56E11C8409D40021392B /* LevelCompleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A0C56E01C8409D40021392B /* LevelCompleteViewController.xib */; };
+		4B415C46A059401019CAAEB8 /* Pods_Debugging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9068E26951E284FD9A8227C0 /* Pods_Debugging.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1143CB421C641A25008F767A /* Debugging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Debugging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1143CB451C641A25008F767A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1143CB471C641A25008F767A /* GameLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelViewController.swift; sourceTree = "<group>"; };
+		1143CB4A1C641A25008F767A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1143CB4C1C641A25008F767A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1143CB4F1C641A25008F767A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1143CB511C641A25008F767A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1164417D1C6A919D006BE864 /* LevelIntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelIntroductionViewController.swift; sourceTree = "<group>"; };
+		1164417E1C6A919D006BE864 /* LevelIntroductionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelIntroductionViewController.xib; sourceTree = "<group>"; };
+		11687BA51C642F1700FA6720 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		11687BA91C643BBB00FA6720 /* Movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
+		11687BB01C6441A400FA6720 /* LevelSixViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelSixViewController.swift; sourceTree = "<group>"; };
+		11687BB11C6441A400FA6720 /* LevelSixViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelSixViewController.xib; sourceTree = "<group>"; };
+		11687BB81C64427800FA6720 /* LevelTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelTwoViewController.swift; sourceTree = "<group>"; };
+		11687BB91C64427800FA6720 /* LevelTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelTwoViewController.xib; sourceTree = "<group>"; };
+		11687BBC1C6442B600FA6720 /* LevelThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelThreeViewController.swift; sourceTree = "<group>"; };
+		11687BBD1C6442B600FA6720 /* LevelThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelThreeViewController.xib; sourceTree = "<group>"; };
+		11687BC01C6442D800FA6720 /* LevelFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelFourViewController.swift; sourceTree = "<group>"; };
+		11687BC11C6442D800FA6720 /* LevelFourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelFourViewController.xib; sourceTree = "<group>"; };
+		11687BC41C6442ED00FA6720 /* LevelFiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelFiveViewController.swift; sourceTree = "<group>"; };
+		11687BC51C6442ED00FA6720 /* LevelFiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelFiveViewController.xib; sourceTree = "<group>"; };
+		11687BC81C64491C00FA6720 /* SimpleMovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleMovieTableViewCell.swift; sourceTree = "<group>"; };
+		11687BC91C64491C00FA6720 /* SimpleMovieTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleMovieTableViewCell.xib; sourceTree = "<group>"; };
+		116A075F1C753E640068F39A /* GameLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLevel.swift; sourceTree = "<group>"; };
+		116A07621C7572D20068F39A /* GameCompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCompleteViewController.swift; sourceTree = "<group>"; };
+		116A07631C7572D20068F39A /* GameCompleteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameCompleteViewController.xib; sourceTree = "<group>"; };
+		116A07841C75B0850068F39A /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		116A07851C75B0850068F39A /* MovieTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		116A07881C75B6920068F39A /* LevelOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelOneViewController.swift; sourceTree = "<group>"; };
+		116A07891C75B6920068F39A /* LevelOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelOneViewController.xib; sourceTree = "<group>"; };
+		1C83F76CFC77AA4CBA4ECC23 /* Pods-Debugging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debugging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Debugging/Pods-Debugging.debug.xcconfig"; sourceTree = "<group>"; };
+		3A0C56DE1C8409B00021392B /* LevelCompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCompleteViewController.swift; sourceTree = "<group>"; };
+		3A0C56E01C8409D40021392B /* LevelCompleteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LevelCompleteViewController.xib; sourceTree = "<group>"; };
+		9068E26951E284FD9A8227C0 /* Pods_Debugging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Debugging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66650C8636C2908FC6DE59B /* Pods-Debugging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Debugging.release.xcconfig"; path = "Pods/Target Support Files/Pods-Debugging/Pods-Debugging.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1143CB3F1C641A25008F767A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B415C46A059401019CAAEB8 /* Pods_Debugging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1143CB391C641A25008F767A = {
+			isa = PBXGroup;
+			children = (
+				1143CB441C641A25008F767A /* Debugging */,
+				1143CB431C641A25008F767A /* Products */,
+				B321F6076918A60A29D0774E /* Pods */,
+				3EADC0431B0C17DCA1D09D72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1143CB431C641A25008F767A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1143CB421C641A25008F767A /* Debugging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1143CB441C641A25008F767A /* Debugging */ = {
+			isa = PBXGroup;
+			children = (
+				116A07611C75508C0068F39A /* Game */,
+				1143CB5C1C641F24008F767A /* Levels */,
+				1143CB451C641A25008F767A /* AppDelegate.swift */,
+				1143CB491C641A25008F767A /* Main.storyboard */,
+				11687BA91C643BBB00FA6720 /* Movies.json */,
+				1143CB4C1C641A25008F767A /* Assets.xcassets */,
+				1143CB4E1C641A25008F767A /* LaunchScreen.storyboard */,
+				1143CB511C641A25008F767A /* Info.plist */,
+			);
+			path = Debugging;
+			sourceTree = "<group>";
+		};
+		1143CB5C1C641F24008F767A /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				116441851C6A9F3D006BE864 /* One */,
+				116441861C6A9F4A006BE864 /* Two */,
+				116441871C6A9F55006BE864 /* Three */,
+				116441881C6A9F5F006BE864 /* Four */,
+				116441891C6A9F66006BE864 /* Five */,
+				1164418A1C6A9F6C006BE864 /* Six */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
+		116441851C6A9F3D006BE864 /* One */ = {
+			isa = PBXGroup;
+			children = (
+				116A07881C75B6920068F39A /* LevelOneViewController.swift */,
+				116A07891C75B6920068F39A /* LevelOneViewController.xib */,
+			);
+			name = One;
+			sourceTree = "<group>";
+		};
+		116441861C6A9F4A006BE864 /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				11687BB81C64427800FA6720 /* LevelTwoViewController.swift */,
+				11687BB91C64427800FA6720 /* LevelTwoViewController.xib */,
+			);
+			name = Two;
+			sourceTree = "<group>";
+		};
+		116441871C6A9F55006BE864 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				11687BBC1C6442B600FA6720 /* LevelThreeViewController.swift */,
+				11687BBD1C6442B600FA6720 /* LevelThreeViewController.xib */,
+			);
+			name = Three;
+			sourceTree = "<group>";
+		};
+		116441881C6A9F5F006BE864 /* Four */ = {
+			isa = PBXGroup;
+			children = (
+				11687BC01C6442D800FA6720 /* LevelFourViewController.swift */,
+				11687BC11C6442D800FA6720 /* LevelFourViewController.xib */,
+				11687BC81C64491C00FA6720 /* SimpleMovieTableViewCell.swift */,
+				11687BC91C64491C00FA6720 /* SimpleMovieTableViewCell.xib */,
+			);
+			name = Four;
+			sourceTree = "<group>";
+		};
+		116441891C6A9F66006BE864 /* Five */ = {
+			isa = PBXGroup;
+			children = (
+				11687BC41C6442ED00FA6720 /* LevelFiveViewController.swift */,
+				11687BC51C6442ED00FA6720 /* LevelFiveViewController.xib */,
+				116A07841C75B0850068F39A /* MovieTableViewCell.swift */,
+				116A07851C75B0850068F39A /* MovieTableViewCell.xib */,
+			);
+			name = Five;
+			sourceTree = "<group>";
+		};
+		1164418A1C6A9F6C006BE864 /* Six */ = {
+			isa = PBXGroup;
+			children = (
+				11687BB01C6441A400FA6720 /* LevelSixViewController.swift */,
+				11687BB11C6441A400FA6720 /* LevelSixViewController.xib */,
+			);
+			name = Six;
+			sourceTree = "<group>";
+		};
+		116A07611C75508C0068F39A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				116A075F1C753E640068F39A /* GameLevel.swift */,
+				11687BA51C642F1700FA6720 /* HomeViewController.swift */,
+				3A0C56DE1C8409B00021392B /* LevelCompleteViewController.swift */,
+				3A0C56E01C8409D40021392B /* LevelCompleteViewController.xib */,
+				1143CB471C641A25008F767A /* GameLevelViewController.swift */,
+				1164417D1C6A919D006BE864 /* LevelIntroductionViewController.swift */,
+				1164417E1C6A919D006BE864 /* LevelIntroductionViewController.xib */,
+				116A07621C7572D20068F39A /* GameCompleteViewController.swift */,
+				116A07631C7572D20068F39A /* GameCompleteViewController.xib */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		3EADC0431B0C17DCA1D09D72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9068E26951E284FD9A8227C0 /* Pods_Debugging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B321F6076918A60A29D0774E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C83F76CFC77AA4CBA4ECC23 /* Pods-Debugging.debug.xcconfig */,
+				F66650C8636C2908FC6DE59B /* Pods-Debugging.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1143CB411C641A25008F767A /* Debugging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1143CB541C641A25008F767A /* Build configuration list for PBXNativeTarget "Debugging" */;
+			buildPhases = (
+				044F41A3C9EB072D72ACDC42 /* Check Pods Manifest.lock */,
+				1143CB3E1C641A25008F767A /* Sources */,
+				1143CB3F1C641A25008F767A /* Frameworks */,
+				1143CB401C641A25008F767A /* Resources */,
+				3B18E0DDB34AEAC0D0D0A345 /* Embed Pods Frameworks */,
+				D912A014A2053349C67704BD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Debugging;
+			productName = Debugging;
+			productReference = 1143CB421C641A25008F767A /* Debugging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1143CB3A1C641A25008F767A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = codepath;
+				TargetAttributes = {
+					1143CB411C641A25008F767A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = N2WKMJD783;
+					};
+				};
+			};
+			buildConfigurationList = 1143CB3D1C641A25008F767A /* Build configuration list for PBXProject "Debugging" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1143CB391C641A25008F767A;
+			productRefGroup = 1143CB431C641A25008F767A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1143CB411C641A25008F767A /* Debugging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1143CB401C641A25008F767A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11687BC31C6442D800FA6720 /* LevelFourViewController.xib in Resources */,
+				116A07651C7572D20068F39A /* GameCompleteViewController.xib in Resources */,
+				116A078B1C75B6920068F39A /* LevelOneViewController.xib in Resources */,
+				11687BC71C6442ED00FA6720 /* LevelFiveViewController.xib in Resources */,
+				11687BAA1C643BBB00FA6720 /* Movies.json in Resources */,
+				3A0C56E11C8409D40021392B /* LevelCompleteViewController.xib in Resources */,
+				11687BCB1C64491C00FA6720 /* SimpleMovieTableViewCell.xib in Resources */,
+				1143CB501C641A25008F767A /* LaunchScreen.storyboard in Resources */,
+				1143CB4D1C641A25008F767A /* Assets.xcassets in Resources */,
+				116441801C6A919D006BE864 /* LevelIntroductionViewController.xib in Resources */,
+				11687BBF1C6442B600FA6720 /* LevelThreeViewController.xib in Resources */,
+				116A07871C75B0850068F39A /* MovieTableViewCell.xib in Resources */,
+				11687BBB1C64427800FA6720 /* LevelTwoViewController.xib in Resources */,
+				11687BB31C6441A400FA6720 /* LevelSixViewController.xib in Resources */,
+				1143CB4B1C641A25008F767A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		044F41A3C9EB072D72ACDC42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B18E0DDB34AEAC0D0D0A345 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Debugging/Pods-Debugging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D912A014A2053349C67704BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Debugging/Pods-Debugging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1143CB3E1C641A25008F767A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11687BBE1C6442B600FA6720 /* LevelThreeViewController.swift in Sources */,
+				1164417F1C6A919D006BE864 /* LevelIntroductionViewController.swift in Sources */,
+				116A07601C753E640068F39A /* GameLevel.swift in Sources */,
+				11687BC21C6442D800FA6720 /* LevelFourViewController.swift in Sources */,
+				116A07861C75B0850068F39A /* MovieTableViewCell.swift in Sources */,
+				11687BC61C6442ED00FA6720 /* LevelFiveViewController.swift in Sources */,
+				1143CB481C641A25008F767A /* GameLevelViewController.swift in Sources */,
+				11687BB21C6441A400FA6720 /* LevelSixViewController.swift in Sources */,
+				116A07641C7572D20068F39A /* GameCompleteViewController.swift in Sources */,
+				11687BBA1C64427800FA6720 /* LevelTwoViewController.swift in Sources */,
+				116A078A1C75B6920068F39A /* LevelOneViewController.swift in Sources */,
+				3A0C56DF1C8409B00021392B /* LevelCompleteViewController.swift in Sources */,
+				1143CB461C641A25008F767A /* AppDelegate.swift in Sources */,
+				11687BCA1C64491C00FA6720 /* SimpleMovieTableViewCell.swift in Sources */,
+				11687BA61C642F1700FA6720 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1143CB491C641A25008F767A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1143CB4A1C641A25008F767A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1143CB4E1C641A25008F767A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1143CB4F1C641A25008F767A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1143CB521C641A25008F767A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1143CB531C641A25008F767A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1143CB551C641A25008F767A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C83F76CFC77AA4CBA4ECC23 /* Pods-Debugging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N2WKMJD783;
+				INFOPLIST_FILE = Debugging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Debugging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1143CB561C641A25008F767A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66650C8636C2908FC6DE59B /* Pods-Debugging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N2WKMJD783;
+				INFOPLIST_FILE = Debugging/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Debugging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1143CB3D1C641A25008F767A /* Build configuration list for PBXProject "Debugging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1143CB521C641A25008F767A /* Debug */,
+				1143CB531C641A25008F767A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1143CB541C641A25008F767A /* Build configuration list for PBXNativeTarget "Debugging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1143CB551C641A25008F767A /* Debug */,
+				1143CB561C641A25008F767A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1143CB3A1C641A25008F767A /* Project object */;
+}
