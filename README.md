@@ -1,8 +1,6 @@
 ## Debugging Game for iOS Lab
 
-![Imgur](http://i.imgur.com/oQbQLf9.png)
-
-In today's lab, we'll be playing a game where each level requires using certain debugging skills to find and fix a bug. Once the bug is fixed, you'll be able to advance to the next level.
+In this lab, we'll be playing a game where each level requires using certain debugging skills to find and fix a bug. Once the bug is fixed, you'll be able to advance to the next level.
 
 **Note:** The game saves your progress as you complete each level (using `UserDefaults`). If you want to go back to the beginning of the game, simply uninstall the app and you'll start from Level One.
 
